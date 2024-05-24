@@ -4,7 +4,67 @@
     box-sizing: border-box;
 }
 
-/* ==== footer mobile === */
+.icon {
+    width: 1.2rem;
+}
+
+/* ==== header start ==== */
+
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+.logo {
+    width: 6em;
+}
+
+.nav1, .nav2 ul {
+    display: flex;
+    align-items: center;
+}
+
+.nav1 {
+    justify-content: space-between;
+}
+
+.nav2 ul {
+    justify-content: space-around;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    margin: 1em 0;
+}
+
+.nav1 ul {
+    display: flex;
+}
+
+.nav1 ul li, .nav2 ul li {
+    list-style: none;
+}
+
+.nav1 ul li {
+    margin-right: 1em;
+
+}
+
+.nav1 ul li a, .nav2 ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+/* ==== header end ==== */
+
+
+
+
+
+/* ==== footer mobile start ==== */
 
 footer {
     background-color: black;
@@ -34,8 +94,7 @@ footer {
     justify-content: center;
 }
 
-.footer__icons img {
-    width: 1.4rem;
+.footer__icons  .icon {
     margin: 1em .5em;
 }
 
@@ -44,15 +103,16 @@ footer {
     font-size: 1rem;
     text-align: center;
     margin-bottom: 1em;
+    text-decoration: none;
 }
 
 /* footer destkop and tablet */
 @media (width > 480px) {
 
     footer {
-         padding: 0 10em;
+        padding: 0 10em;
     }
 }
 
 
-/* ==== footer mobile === */
+/* ==== footer mobile end ==== */
