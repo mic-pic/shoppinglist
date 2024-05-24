@@ -61,13 +61,15 @@ header {
 
 /* ==== main start ==== */
 
+main {
+    margin: 0 1.6em;
+}
+
 .container {
     display: grid;
     position: relative;
     grid-template-columns: 1fr;
     gap: 1em;
-    margin: 1em 1.5em;
-    min-height: 100vh;
 }
 
 .food {
@@ -142,6 +144,10 @@ header {
         width: 10em;
     }
 
+    main {
+        margin: 1em 3em;
+    }
+
 }
 
 @media (width > 770px) {
@@ -156,6 +162,10 @@ header {
 
     .logo {
         width: 10em;
+    }
+
+    main {
+        margin: 1em 7em;
     }
 
 }
