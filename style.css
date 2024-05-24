@@ -11,8 +11,6 @@
 /* ==== header start ==== */
 
 header {
-    position: fixed;
-    top: 0;
     width: 100%;
     margin-top: 1em;
     margin-bottom: 1em;
@@ -60,9 +58,15 @@ header {
 
 /* ==== header end ==== */
 
+/* ==== main start ==== */
 
 
+.food {
+    border: 1px solid red;
 
+}
+
+/* ==== main end ==== */
 
 /* ==== footer mobile start ==== */
 
