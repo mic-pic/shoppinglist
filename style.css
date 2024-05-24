@@ -15,7 +15,7 @@ header {
     position: sticky;
     top: 0;
     width: 100%;
-    padding: 1em;
+    padding: 1em 1em .5em;
     z-index: 100;
 }
 
@@ -62,7 +62,7 @@ header {
 /* ==== main start ==== */
 
 main {
-    margin: 0 1.6em;
+    margin: 1em 1.6em;
 }
 
 .container {
@@ -70,6 +70,7 @@ main {
     position: relative;
     grid-template-columns: 1fr;
     gap: 1em;
+    margin-bottom: 2em;
 }
 
 .food {
