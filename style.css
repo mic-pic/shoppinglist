@@ -4,6 +4,15 @@
     box-sizing: border-box;
 }
 
+/* ==== Colors ==== */
+
+:root {
+    --primary-color: #008C45;
+    --highlight-color: #CD212A;
+}
+
+/* ==== Colors end ==== */
+
 .icon {
     width: 1.2rem;
 }
@@ -245,11 +254,13 @@ footer {
 /* ==== footer end ==== */
 
 /* ==== Links ==== */
-a:hover,
-a:focus {
-    color: #CD212A;
+
+/* .link:visited {
+    color: var(--primary-color, green);
+} */
+
+.link:hover,
+.link:focus {
+    color: var(--highlight-color, red);
 }
 
-a:visited {
-    color: #008C45;
-}

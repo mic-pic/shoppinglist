@@ -12,7 +12,6 @@
 
 /* ==== recipe-header start==== */
 .recipe-header {
-    /* border: 1px solid red; */
     position: relative;
 }
 
@@ -31,11 +30,11 @@
 
 .recipe-header .tag-month {
     position: absolute;
-    bottom: 2em;
+    bottom: 1em;
     width: 100%;
-    background-color: hsl(357, 72%, 47%, 0.8);
+    background-color: hsl(357, 72%, 47%);
     color: white;
-    padding: .5em 0;
+    padding: .7em 0;
     text-align: center;
     font-size: 1.2rem;
     font-weight: bold;
@@ -44,18 +43,12 @@
 /* ==== recipe-header end ==== */
 
 .title  {
-    /* border: 1px solid red; */
     font-size: 1.8rem;
 }
 
 /* ==== recipe-meta start ==== */
 
-/* .meta {
-    border: 1px solid red;
-} */
-
 .meta__time {
-    /* border: 1px solid red; */
     display: grid;
     grid-template-columns: 1fr 1fr;
     margin-bottom: 1em;
@@ -95,10 +88,6 @@
 
 /* ==== ingredients start ==== */
 
-.ingredients {
-    /* border: 1px solid red; */
-}
-
 .ingredients ul {
     margin-left: 1.8em;
 }
@@ -110,10 +99,6 @@
 /* ==== ingredients end ==== */
 
 /* ==== preparation start ==== */
-
-.preparation {
-    /* border: 1px solid red; */
-}
 
 .preparation span {
     background-color: #008C45;
