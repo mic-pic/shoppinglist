@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+main {
+    min-height: 100vh;
+}
+
 /* margins top/bottom for all elements */
 
 .title, .meta, .ingredients, .preparation {
