@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* ==== recipe-header start==== */
+.recipe-header {
+    border: 1px solid red;
+    position: relative;
+}
+
+.recipe-header img {
+    width: 100%;
+}
+
+.recipe-header .tag {
+    position: absolute;
+    bottom: 1em;
+    left: 1em;
+    background-color: #008C45;
+    padding: .5em 1em;
+    color: white; 
+}
+
+/* ==== recipe-header end ==== */
+
+.title  {
+    border: 1px solid red;
+    margin: 2em 0;
+    font-size: 2rem;
+}
+
+.meta {
+    border: 1px solid red;
+}
+
+.ingredients {
+    border: 1px solid red;
+}
+
+.preparation {
+    border: 1px solid red;
+}
