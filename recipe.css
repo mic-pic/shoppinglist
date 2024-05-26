@@ -7,12 +7,12 @@
 /* margins top/bottom for all elements */
 
 .title, .meta, .ingredients, .preparation {
-    margin: 1em 0;
+    margin: 1.5em 0;
 }
 
 /* ==== recipe-header start==== */
 .recipe-header {
-    border: 1px solid red;
+    /* border: 1px solid red; */
     position: relative;
 }
 
@@ -29,21 +29,33 @@
     color: white; 
 }
 
+.recipe-header .tag-month {
+    position: absolute;
+    bottom: 2em;
+    width: 100%;
+    background-color: hsl(357, 72%, 47%, 0.8);
+    color: white;
+    padding: .5em 0;
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
 /* ==== recipe-header end ==== */
 
 .title  {
-    border: 1px solid red;
+    /* border: 1px solid red; */
     font-size: 1.8rem;
 }
 
 /* ==== recipe-meta start ==== */
 
-.meta {
+/* .meta {
     border: 1px solid red;
-}
+} */
 
 .meta__time {
-    border: 1px solid red;
+    /* border: 1px solid red; */
     display: grid;
     grid-template-columns: 1fr 1fr;
     margin-bottom: 1em;
@@ -54,7 +66,8 @@
 }
 
 .meta__time .icon,
-.meta__utensils .icon {
+.meta__utensils .icon,
+.meta__utensils__list li {
     margin-right: .8em;
 }
 
@@ -71,7 +84,6 @@
 
 .meta__utensils__list li {
     list-style: none;
-    margin-right: .8em;
 }
 
 .meta__utensils__list li::after {
@@ -81,16 +93,26 @@
 
 /* ==== recipe-meta end ==== */
 
-
+/* ==== ingredients start ==== */
 
 .ingredients {
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
+
+.ingredients ul {
+    margin-left: 1.8em;
+}
+
+.ingredients h3 {
+    margin-top: 1em;
+}
+
+/* ==== ingredients end ==== */
 
 /* ==== preparation start ==== */
 
 .preparation {
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 
 .preparation span {
@@ -108,6 +130,7 @@
 
 .preparation__number {
     text-align: center;
+    font-size: 1.2rem;
 }
 
 /* ==== preparation end ==== */
