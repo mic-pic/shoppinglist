@@ -7,7 +7,7 @@
 /* margins top/bottom for all elements */
 
 .title, .meta, .ingredients, .preparation {
-    margin: .5em 0;
+    margin: 1em 0;
 }
 
 /* ==== recipe-header start==== */
@@ -22,7 +22,7 @@
 
 .recipe-header .tag {
     position: absolute;
-    bottom: 1em;
+    top: 1em;
     left: 1em;
     background-color: #008C45;
     padding: .5em 1em;
@@ -87,6 +87,27 @@
     border: 1px solid red;
 }
 
+/* ==== preparation start ==== */
+
 .preparation {
     border: 1px solid red;
 }
+
+.preparation span {
+    background-color: #008C45;
+    color: white;
+    padding: .2em .4em;
+    border-radius: 50%;
+}
+
+.preparation p,
+.preparation__title{
+    margin-bottom: 1em;
+
+}
+
+.preparation__number {
+    text-align: center;
+}
+
+/* ==== preparation end ==== */
