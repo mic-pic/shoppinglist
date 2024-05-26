@@ -70,7 +70,6 @@ main {
 
 .meta__utensils {
     display:flex;
-    justify-content: space-between;
     align-items: center;
 }
 
@@ -120,6 +119,12 @@ main {
 .preparation__number {
     text-align: center;
     font-size: 1.2rem;
+}
+
+@media (width >= 77px) {
+    .preparation p {
+        margin-bottom: 2em;
+    }
 }
 
 /* ==== preparation end ==== */

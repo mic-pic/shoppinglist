@@ -145,7 +145,27 @@ main {
 
 /* media queries for tablet and desktop */
 
-@media (480px < width < 979px) {
+@media (480px < width < 770px) {
+
+    .container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .food {
+        min-height: 35vh;
+    }
+
+    .logo {
+        width: 10em;
+    }
+
+    main {
+        margin: 1em 5em 3em;
+    }
+
+}
+
+@media (770px <= width < 980px) {
 
     .container {
         grid-template-columns: repeat(2, 1fr);
@@ -165,7 +185,7 @@ main {
 
 }
 
-@media (width > 980px) {
+@media (width >= 980px) {
 
     .container {
         grid-template-columns: repeat(3, 1fr);
