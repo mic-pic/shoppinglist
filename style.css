@@ -32,17 +32,17 @@ header {
     width: 6em;
 }
 
-.nav1, .nav2 ul {
+.header__nav1, .header__nav2 ul {
     display: flex;
     align-items: center;
     flex-wrap: wrap;
 }
 
-.nav1 {
+.header__nav1 {
     justify-content: space-between;
 }
 
-.nav2 ul {
+.header__nav2 ul {
     justify-content: space-around;
     border-top: 1px solid black;
     border-bottom: 1px solid black;
@@ -50,20 +50,20 @@ header {
     padding: .5em 0;
 }
 
-.nav1 ul {
+.header__nav1 ul {
     display: flex;
 }
 
-.nav1 ul li, .nav2 ul li {
+.header__nav1 ul li, .header__nav2 ul li {
     list-style: none;
 }
 
-.nav1 ul li {
+.header__nav1 ul li {
     margin-right: 1em;
 
 }
 
-.nav1 ul li a, .nav2 ul li a {
+.header__nav1 ul li a, .header__nav2 ul li a {
     text-decoration: none;
     color: black;
 }
