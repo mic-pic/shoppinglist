@@ -133,6 +133,8 @@ main {
     background-image: url(./img/food/tiramisu.jpg);
 }
 
+/* media queries for tablet and desktop */
+
 @media (480px < width < 769px) {
 
     .container {
@@ -176,7 +178,7 @@ main {
 
 /* ==== main end ==== */
 
-/* ==== footer mobile start ==== */
+/* ==== footer start ==== */
 
 footer {
     background-color: black;
@@ -241,3 +243,13 @@ footer {
 }
 
 /* ==== footer end ==== */
+
+/* ==== Links ==== */
+a:hover,
+a:focus {
+    color: #CD212A;
+}
+
+a:visited {
+    color: #008C45;
+}
