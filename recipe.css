@@ -4,6 +4,11 @@
     box-sizing: border-box;
 }
 
+/* margins top/bottom for all elements */
+
+.title, .meta, .ingredients, .preparation {
+    margin: .5em 0;
+}
 
 /* ==== recipe-header start==== */
 .recipe-header {
@@ -28,13 +33,55 @@
 
 .title  {
     border: 1px solid red;
-    margin: 2em 0;
-    font-size: 2rem;
+    font-size: 1.8rem;
 }
+
+/* ==== recipe-meta start ==== */
 
 .meta {
     border: 1px solid red;
 }
+
+.meta__time {
+    border: 1px solid red;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-bottom: 1em;
+}
+
+.time, .difficulty {
+    display: flex;
+}
+
+.meta__time .icon,
+.meta__utensils .icon {
+    margin-right: .8em;
+}
+
+.meta__utensils {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.meta__utensils__list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.meta__utensils__list li {
+    list-style: none;
+    margin-right: .8em;
+}
+
+.meta__utensils__list li::after {
+    content: '|';
+    margin-left: .8em;
+}
+
+/* ==== recipe-meta end ==== */
+
+
 
 .ingredients {
     border: 1px solid red;
