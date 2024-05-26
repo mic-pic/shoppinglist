@@ -74,6 +74,7 @@ header {
 
 main {
     margin: 1em 1.6em;
+    min-height: 100vh;
 }
 
 .container {
@@ -144,14 +145,14 @@ main {
 
 /* media queries for tablet and desktop */
 
-@media (480px < width < 769px) {
+@media (480px < width < 979px) {
 
     .container {
         grid-template-columns: repeat(2, 1fr);
     }
 
     .food {
-        min-height: 45vh;
+        min-height: 35vh;
     }
 
     .logo {
@@ -159,19 +160,19 @@ main {
     }
 
     main {
-        margin: 1em 3em;
+        margin: 1em 8em 3em;
     }
 
 }
 
-@media (width > 770px) {
+@media (width > 980px) {
 
     .container {
         grid-template-columns: repeat(3, 1fr);
     }
 
     .food {
-        min-height: 45vh;
+        min-height: 35vh;
     }
 
     .logo {
@@ -179,7 +180,7 @@ main {
     }
 
     main {
-        margin: 1em 7em;
+        margin: 1em 15em 3em;
     }
 
 }
@@ -254,10 +255,6 @@ footer {
 /* ==== footer end ==== */
 
 /* ==== Links ==== */
-
-/* .link:visited {
-    color: var(--primary-color, green);
-} */
 
 .link:hover,
 .link:focus {
